@@ -17,7 +17,7 @@ import PlaneImg from "../../assets/images/Plane.jpg";
 import QuoteImg from "../../assets/images/NewYork.jpg";
 import FarmImg from "../../assets/images/DukeFarms.jpeg";
 import NewYorkImg from "../../assets/images/NewYork4.jpg";
-import UlacitImg from "../../assets/images/ULACIT.png";
+import UlacitImg from "../../assets/images/Ulacit.png";
 import RvccImg from "../../assets/images/RVCC.png";
 
 import { title, subtitle } from "@/components/primitives";
