@@ -48,7 +48,7 @@ export default function ModalComponent({
               </ModalHeader>
               <ModalBody>{modalContent}</ModalBody>
               <ModalFooter>
-                <Button color="foreground" variant="light" onPress={onClose}>
+                <Button color="warning" variant="light" onPress={onClose}>
                   Close
                 </Button>
                 <Button
