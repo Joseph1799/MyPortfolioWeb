@@ -66,7 +66,7 @@ export default function Home() {
           >
             Spring Boot
           </Chip>{" "}
-          and{" "}
+          ,{" "}
           <Chip
             variant="shadow"
             classNames={{
@@ -77,7 +77,7 @@ export default function Home() {
           >
             SQL
           </Chip>{" "}
-          , and I also have skills in skills in{" "}
+          , and I also have skills in{" "}
           <Chip
             variant="shadow"
             classNames={{
@@ -121,7 +121,7 @@ export default function Home() {
           >
             Python
           </Chip>{" "}
-          and other programming languages programming.
+          and other programming languages.
         </h2>
       </div>
 
