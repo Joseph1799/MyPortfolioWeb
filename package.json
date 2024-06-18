@@ -7,9 +7,7 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d out"
+		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
 	},
 	"dependencies": {
 		"@nextui-org/button": "2.0.33",
