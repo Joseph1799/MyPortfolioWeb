@@ -1,4 +1,5 @@
 {
+	"homepage": "https://josephvargas.social/",
 	"name": "next-app-template",
 	"version": "0.0.1",
 	"private": true,
@@ -6,7 +7,9 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
+		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d out"
 	},
 	"dependencies": {
 		"@nextui-org/button": "2.0.33",
