@@ -125,7 +125,7 @@ export default function Home() {
         </h2>
       </div>
 
-      <div data-aos="fade-up" className="flex gap-3">
+      <div data-aos="fade-up" className="flex gap-3 mb-20">
         <Link
           className={buttonStyles({
             color: "primary",
