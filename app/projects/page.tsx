@@ -14,7 +14,7 @@ import CosechaFacilImg from "@/assets/images/cosecha.png";
 
 import "aos/dist/aos.css";
 
-export default function AboutMe() {
+export default function ProjectsPage() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -26,7 +26,7 @@ export default function AboutMe() {
         className="inline-block max-w-lg text-center justify-center"
       >
         <h1 className={title()}>Personal&nbsp;</h1>
-        <h1 className={title({ color: "blue" })}>Proyects&nbsp;</h1>
+        <h1 className={title({ color: "blue" })}>Projects&nbsp;</h1>
         <h2 className={subtitle({ class: "mt-5" })}>
           Here you can find all the projects that I have done in my journey as a
           computer engineering student at ULACIT.

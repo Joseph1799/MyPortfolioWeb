@@ -23,7 +23,7 @@ import RvccImg from "../../assets/images/RVCC.png";
 import { title, subtitle } from "@/components/primitives";
 import "aos/dist/aos.css";
 
-export default function BlogPage() {
+export default function AboutMePage() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
