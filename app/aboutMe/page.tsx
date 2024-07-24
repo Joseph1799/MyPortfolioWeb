@@ -13,10 +13,10 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 
 import MustangImg from "../../assets/images/NewJersey.jpeg";
-import PlaneImg from "../../assets/images/Plane.jpg";
+import GreciaImg from "../../assets/images/Grecia.jpg";
 import QuoteImg from "../../assets/images/NewYork.jpg";
 import FarmImg from "../../assets/images/DukeFarms.jpeg";
-import NewYorkImg from "../../assets/images/NewYork4.jpg";
+import PlaneImg from "../../assets/images/Plane.jpg";
 import UlacitImg from "../../assets/images/Ulacit.png";
 import RvccImg from "../../assets/images/RVCC.png";
 
@@ -83,37 +83,20 @@ export default function AboutMePage() {
         >
           <CardHeader className="absolute z-10 flex-col !items-start backdrop-blur">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              New York - Times Square
+              US - Traveling
             </p>
           </CardHeader>
           <Image
             removeWrapper
             alt="Card background"
             className="z-0 w-full h-full -translate-x-2 object-cover"
-            src={NewYorkImg.src}
-          />
-        </Card>
-        <Card
-          data-aos="fade-up"
-          isFooterBlurred
-          className="w-full h-[300px] col-span-12 sm:col-span-5"
-        >
-          <CardHeader className="absolute z-10 flex-col items-start backdrop-blur">
-            <p className="text-tiny text-white/60 uppercase font-bold">
-              American Airlines
-            </p>
-          </CardHeader>
-          <Image
-            removeWrapper
-            alt="Card example background"
-            className="z-0 w-full h-full scale-100 -translate-y-0 object-cover"
             src={PlaneImg.src}
           />
         </Card>
         <Card
           data-aos="fade-up"
           isFooterBlurred
-          className="w-full h-[300px] col-span-12 sm:col-span-7"
+          className="w-full min-h-[300px] col-span-12 sm:col-span-5"
         >
           <CardHeader className="absolute z-10 flex-col items-start backdrop-blur">
             <p className="text-tiny text-white/60 uppercase font-bold">
@@ -122,9 +105,26 @@ export default function AboutMePage() {
           </CardHeader>
           <Image
             removeWrapper
+            alt="Card example background"
+            className="z-0 w-full h-full scale-100 -translate-y-0 object-cover"
+            src={MustangImg.src}
+          />
+        </Card>
+        <Card
+          data-aos="fade-up"
+          isFooterBlurred
+          className="w-full min-h-[300px] col-span-12 sm:col-span-7"
+        >
+          <CardHeader className="absolute z-10 flex-col items-end">
+            <p className="text-tiny text-white/60 uppercase font-bold backdrop-blur rounded-full">
+              Grecia - Family Lunch
+            </p>
+          </CardHeader>
+          <Image
+            removeWrapper
             alt="Relaxing app background"
             className="z-0 w-full h-full object-cover"
-            src={MustangImg.src}
+            src={GreciaImg.src}
           />
         </Card>
       </div>
